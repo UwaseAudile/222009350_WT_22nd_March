@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <body style="background-color: gainsboro;">
+  <nav style="text-align: center; font-size: 15; font-family: times new roman;">
+      <a href="home.html" style="padding: 2px; color: white; background-color: green; text-decoration: none; margin-right: 2px;">Home</a>
+      <a href="list.html" style="padding: 2px; color: white; background-color: green; text-decoration: none; margin-right: 2px;">List</a>
+      <a href="form.html" style="padding: 2px; color: white; background-color: green; text-decoration: none; margin-right: 2px;">Form</a>
+      <a href="table.html" style="padding: 2px; color: white; background-color: green; text-decoration: none; margin-right: 2px;">Table</a>
+      <a href="radiobtn.html" style="padding: 2px; color: white; background-color: green; text-decoration: none; margin-right: 2px;">Radio Button</a>
+    </nav>
+        
+    </center>
+    </p>
+     <center>
+    <!-- Form Page -->
+    
+    <form action="" method="post" style="background-color: lightpink; align-items: center; width: 500px; height: 550px;">  
+      <label style="font-weight: bold; font-size: 24px; color: black;"><u>REGISTRATION FORM</u></label><br><br>
+      <label style="font-weight: bold;">ID</label>
+      <input type="number" name="id"><br><br>
+      <label style="font-weight: bold;">FIRST NAME</label>
+      <input type="text" name="fname"><br><br>
+      <label style="font-weight: bold;">LAST NAME</label>
+      <input type="text" name="lname"><br><br>
+      <label style="font-weight: bold;">DOB</label>
+      <input type="date" name="dob"><br><br>
+      <label style="font-weight: bold;">GENDER</label>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female<br><br>
+      <label style="font-weight: bold;">EMAIL</label>
+      <input type="email" name="email"><br><br>
+      <label style="font-weight: bold;">CURRENCY</label>
+       <select name="dept" id="dept" required>
+                <option>CBE</option>
+                <option>CMHS</option>
+                <option>CAS</option>
+                <option>CST</option>
+                <option>CAVEM</option>
+                <option>CE</option>
+            </select><br><br>
+      <label style="font-weight: bold;">COUNTRY</label>
+      <input type="text" name="country"><br><br>
+      <label style="font-weight: bold;">USERNAME</label>
+      <input type="text" name="username"><br><br>
+      <label style="font-weight: bold;">PASSWORD</label>
+      <input type="password" name="password"><br><br>
+      <input type="submit" name="submit" value="REGISTER" style="background-color: grey;color: white; font-family: times new roman; font-weight: bold; font-size: 10px; height: 20px; border-radius: 5px; width: 100px; padding: 5px; border: none;">
+      <input type="reset" name="reset" value="CANCEL" style="background-color: grey;color: white; font-family: times new roman; font-weight: bold; font-size: 10px; height: 20px; border-radius: 5px; width: 100px; padding: 5px; border: none;">
+        </center>  
+    </form>
+</body>
+</html>
